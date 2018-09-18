@@ -1,0 +1,18 @@
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.f.udream: DEBUG
+server:
+  port: 9001
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+  datasource:
+    url: jdbc:oracle:thin:@yhd123.com:1521:orcl
+    username: udream
+    password: udream

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<textarea id="stores"></textarea>
+<button id="save">保存</button>
+<script>
+    $('#save').click(function(){
+        $.ajax({
+            url:"store/add",
+            type:"post",
+            contentType: "application/json",
+            data:$('#stores').val(),
+            success:function(data){
+
+            }
+        });
+    });
+
+</script>
+</body>
+</html>
