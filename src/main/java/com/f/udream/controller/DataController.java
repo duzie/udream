@@ -32,7 +32,8 @@ public class DataController {
     final String getStoreSummaryUrl = "http://api.udream.cn/basics/store/getStoreSummary";
     final String storesUrl = "http://api.udream.cn/basics/store/locations?version=1&city=1004774280682008576&district=";
     final String getCraftsmanQueuedStatusUrl = "http://api.udream.cn/queued/getCraftsmanQueuedStatus";
-    final String queryOrderTradeByStoreId = "https://api.udream.cn/mgt/franchiseWx/queryOrderTradeByStoreId";
+    final String queryOrderTradeByStoreId = "https://api.udream.cn/mgt/franchise/franchiseWx/queryOrderTradeByStoreId";
+
     String idCard = "432502198405012316";
     String mobile = "15989300244";
     String token = "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJpZENhcmQiOiI0MzI1MDIxOTg0MDUwMTIzMTYiLCJtb2JpbGUiOiIxNTk4OTMwMDI0NCIsImV4cCI6MTUzMzExODI0OCwiaWF0IjoxNTMxODIyMjQ4fQ.ps0Hyi-okeHtyZ-m0ltDRyAVDuOSqn-SFBWr009HgUk";
